@@ -1,0 +1,181 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "validation_03",
+  "position": {
+    "x": 652,
+    "y": 84,
+    "z": 200,
+    "height": 440,
+    "width": 612,
+    "tabOrder": 200
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "validation_checks"
+                    }
+                  },
+                  "Property": "Check"
+                }
+              },
+              "queryRef": "validation_checks.Check",
+              "nativeQueryRef": "Check"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "validation_checks"
+                    }
+                  },
+                  "Property": "Evaluation"
+                }
+              },
+              "queryRef": "validation_checks.Evaluation",
+              "nativeQueryRef": "Evaluation"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "validation_checks"
+                    }
+                  },
+                  "Property": "Precision"
+                }
+              },
+              "queryRef": "validation_checks.Precision",
+              "nativeQueryRef": "Precision"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "validation_checks"
+                    }
+                  },
+                  "Property": "Recall"
+                }
+              },
+              "queryRef": "validation_checks.Recall",
+              "nativeQueryRef": "Recall"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "validation_checks"
+                    }
+                  },
+                  "Property": "F1"
+                }
+              },
+              "queryRef": "validation_checks.F1",
+              "nativeQueryRef": "F1"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "validation_checks"
+                  }
+                },
+                "Property": "Check"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Check details'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1D1B58'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

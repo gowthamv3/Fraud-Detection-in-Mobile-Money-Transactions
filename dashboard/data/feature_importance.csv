@@ -1,0 +1,9 @@
+Feature,Importance
+orig_emptied,0.6093
+errorBalanceOrig,0.2629
+dest_is_merchant,0.0388
+oldbalanceDest,0.0151
+amount,0.0137
+type_CASH_IN,0.0109
+amount_to_balance,0.0104
+newbalanceDest,0.0082

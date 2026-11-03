@@ -1,0 +1,253 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "explorer_06",
+  "position": {
+    "x": 16,
+    "y": 190,
+    "z": 500,
+    "height": 518,
+    "width": 1248,
+    "tabOrder": 500
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "TxnID"
+                }
+              },
+              "queryRef": "transactions.TxnID",
+              "nativeQueryRef": "TxnID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "Hour"
+                }
+              },
+              "queryRef": "transactions.Hour",
+              "nativeQueryRef": "Hour"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "Type"
+                }
+              },
+              "queryRef": "transactions.Type",
+              "nativeQueryRef": "Type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "Amount"
+                }
+              },
+              "queryRef": "transactions.Amount",
+              "nativeQueryRef": "Amount"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "SenderBalanceBefore"
+                }
+              },
+              "queryRef": "transactions.SenderBalanceBefore",
+              "nativeQueryRef": "SenderBalanceBefore"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "SenderBalanceAfter"
+                }
+              },
+              "queryRef": "transactions.SenderBalanceAfter",
+              "nativeQueryRef": "SenderBalanceAfter"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "ReceiverBalanceBefore"
+                }
+              },
+              "queryRef": "transactions.ReceiverBalanceBefore",
+              "nativeQueryRef": "ReceiverBalanceBefore"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "ReceiverBalanceAfter"
+                }
+              },
+              "queryRef": "transactions.ReceiverBalanceAfter",
+              "nativeQueryRef": "ReceiverBalanceAfter"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "ReceiverKind"
+                }
+              },
+              "queryRef": "transactions.ReceiverKind",
+              "nativeQueryRef": "ReceiverKind"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "Class"
+                }
+              },
+              "queryRef": "transactions.Class",
+              "nativeQueryRef": "Class"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "FraudProbability"
+                }
+              },
+              "queryRef": "transactions.FraudProbability",
+              "nativeQueryRef": "FraudProbability"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "Predicted"
+                }
+              },
+              "queryRef": "transactions.Predicted",
+              "nativeQueryRef": "Predicted"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "Outcome"
+                }
+              },
+              "queryRef": "transactions.Outcome",
+              "nativeQueryRef": "Outcome"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "transactions"
+                    }
+                  },
+                  "Property": "Split"
+                }
+              },
+              "queryRef": "transactions.Split",
+              "nativeQueryRef": "Split"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "transactions"
+                  }
+                },
+                "Property": "FraudProbability"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,873 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DataFolder\", \"transactions\", \"model_comparison\", \"feature_importance\", \"validation_checks\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "model_comparison.f1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "model_comparison",
+                    "ConceptualProperty": "F1"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "F1": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "model_comparison.falsealarms": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "model_comparison",
+                    "ConceptualProperty": "FalseAlarms"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "False alarms": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "model_comparison.missedfraud": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "model_comparison",
+                    "ConceptualProperty": "MissedFraud"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Missed fraud": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "model_comparison.model": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "model_comparison",
+                    "ConceptualProperty": "Model"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Model": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "model_comparison.pr_auc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "model_comparison",
+                    "ConceptualProperty": "PR_AUC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "PR-AUC": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "model_comparison.precision": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "model_comparison",
+                    "ConceptualProperty": "Precision"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Precision": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "model_comparison.recall": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "model_comparison",
+                    "ConceptualProperty": "Recall"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Recall": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.f1_score": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "F1 Score"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "F1 score": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.false_alarms": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "False Alarms"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "False alarms": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.fraud_amount": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "Fraud Amount"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Fraud amount": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.fraud_cases": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "Fraud Cases"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Fraud cases": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.fraud_caught": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "Fraud Caught"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Frauds caught": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.fraud_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "Fraud Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Fraud rate": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.fraud_share_of_money": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "Fraud Share of Money"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Fraud share of money": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.missed_fraud": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "Missed Fraud"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Missed fraud": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.precision": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "Precision"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Precision": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.recall": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "Recall"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Recall": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.transactions": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "transactions",
+                    "ConceptualProperty": "Transactions"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Transactions": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Transactions shown": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "DataFolder",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"E:\\python\\BIA capstone\\Fraud_Detection\\dashboard\\data\\\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "362f8150-ab59-4d38-b627-b7238245b589"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "transactions",
+        "columns": [
+          {
+            "name": "TxnID",
+            "dataType": "int64",
+            "lineageTag": "f1f4acf7-c101-44e3-b3aa-abb4fd2095fa",
+            "sourceColumn": "TxnID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Hour",
+            "dataType": "int64",
+            "lineageTag": "2e1d97bd-f4c6-45f3-b7bc-520811e25104",
+            "sourceColumn": "Hour",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Type",
+            "dataType": "string",
+            "lineageTag": "59789b32-a675-46bf-80d0-aab32bc793b7",
+            "sourceColumn": "Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Amount",
+            "dataType": "double",
+            "formatString": "#,##0.00",
+            "lineageTag": "94646ba8-22dd-438b-867e-e67957ccbe11",
+            "sourceColumn": "Amount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SenderBalanceBefore",
+            "dataType": "double",
+            "formatString": "#,##0.00",
+            "lineageTag": "1a40893c-1c61-403c-9f07-b026fb304766",
+            "sourceColumn": "SenderBalanceBefore",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SenderBalanceAfter",
+            "dataType": "double",
+            "formatString": "#,##0.00",
+            "lineageTag": "fc947e1e-771e-4d26-b9e7-b4d0d6661671",
+            "sourceColumn": "SenderBalanceAfter",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ReceiverBalanceBefore",
+            "dataType": "double",
+            "formatString": "#,##0.00",
+            "lineageTag": "93c63dd5-c795-4647-b636-7403cf1e1c93",
+            "sourceColumn": "ReceiverBalanceBefore",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ReceiverBalanceAfter",
+            "dataType": "double",
+            "formatString": "#,##0.00",
+            "lineageTag": "482c246f-5c49-4188-bc8e-53af4e734f67",
+            "sourceColumn": "ReceiverBalanceAfter",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ReceiverKind",
+            "dataType": "string",
+            "lineageTag": "1b4fab45-e231-4014-bbaa-21bdd147eb54",
+            "sourceColumn": "ReceiverKind",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IsFraud",
+            "dataType": "int64",
+            "lineageTag": "c496536c-4747-406f-b652-cd5893514a28",
+            "sourceColumn": "IsFraud",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Class",
+            "dataType": "string",
+            "lineageTag": "115931e1-77c3-4f2a-a2d5-72b7a62b7ed8",
+            "sourceColumn": "Class",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "AccountEmptied",
+            "dataType": "string",
+            "lineageTag": "25f01405-4679-414a-a235-fbeb9793865c",
+            "sourceColumn": "AccountEmptied",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "WholeBalanceMoved",
+            "dataType": "string",
+            "lineageTag": "bf13730d-3317-4913-a7ad-58b9b7fbfa29",
+            "sourceColumn": "WholeBalanceMoved",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "AmountBand",
+            "dataType": "string",
+            "lineageTag": "0ee5aea6-e7e0-49a8-b0d4-651f87f0f5ca",
+            "sourceColumn": "AmountBand",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HourPeriod",
+            "dataType": "string",
+            "lineageTag": "fb2c8a5f-e4d5-4182-8fcb-2c21152a1c9a",
+            "sourceColumn": "HourPeriod",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Split",
+            "dataType": "string",
+            "lineageTag": "09945c3d-f99f-4569-b027-c87c8dec7a4a",
+            "sourceColumn": "Split",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FraudProbability",
+            "dataType": "double",
+            "formatString": "0.0000",
+            "lineageTag": "577e762a-14b1-4891-bf00-42050c894418",
+            "sourceColumn": "FraudProbability",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Predicted",
+            "dataType": "string",
+            "lineageTag": "351463bd-f263-4e2d-8a68-22add7e2d4d0",
+            "sourceColumn": "Predicted",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Outcome",
+            "dataType": "string",
+            "lineageTag": "e9fdeaad-3714-4cc4-8e5e-763a166b85d0",
+            "sourceColumn": "Outcome",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "b621590d-753a-4099-855f-c5a71ee7993e",
+        "measures": [
+          {
+            "name": "Transactions",
+            "expression": "COUNTROWS(transactions)",
+            "formatString": "#,##0",
+            "lineageTag": "ed61c8b0-48c4-468b-a2e4-e9e4f0166238"
+          },
+          {
+            "name": "Fraud Cases",
+            "expression": "CALCULATE(COUNTROWS(transactions), transactions[IsFraud] = 1)",
+            "formatString": "#,##0",
+            "lineageTag": "aa4b3c1c-07f7-4e1a-996c-8e0b49f457a1"
+          },
+          {
+            "name": "Fraud Rate",
+            "expression": "DIVIDE([Fraud Cases], [Transactions])",
+            "formatString": "0.00%",
+            "lineageTag": "0d5e2bc9-248c-4628-a351-b3f7fa9b6ef4"
+          },
+          {
+            "name": "Total Amount",
+            "expression": "SUM(transactions[Amount])",
+            "formatString": "#,##0",
+            "lineageTag": "2ee06bd5-2009-4557-b59b-15501dd97b61"
+          },
+          {
+            "name": "Fraud Amount",
+            "expression": "CALCULATE(SUM(transactions[Amount]), transactions[IsFraud] = 1)",
+            "formatString": "#,##0",
+            "lineageTag": "25ea9d6e-7172-45dc-aac5-589bc9553ae3"
+          },
+          {
+            "name": "Fraud Share of Money",
+            "expression": "DIVIDE([Fraud Amount], [Total Amount])",
+            "formatString": "0.0%",
+            "lineageTag": "5bac3f1e-83ac-4961-8c43-e8bab53f9f53"
+          },
+          {
+            "name": "Account Emptied Rate",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(transactions), transactions[AccountEmptied] = \"Yes\"), [Transactions])",
+            "formatString": "0.0%",
+            "lineageTag": "fbb4cd81-716f-490f-b3d6-0c109e18ab3c"
+          },
+          {
+            "name": "Whole Balance Moved Rate",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(transactions), transactions[WholeBalanceMoved] = \"Yes\") + 0, [Transactions])",
+            "formatString": "0.0%",
+            "lineageTag": "f4f50e72-b1fc-4a69-a46f-a4cd32831f79"
+          },
+          {
+            "name": "Fraud Caught",
+            "expression": "CALCULATE(COUNTROWS(transactions), transactions[Split] = \"Test\", transactions[Outcome] = \"Fraud caught\")",
+            "formatString": "#,##0",
+            "lineageTag": "7a0a6d92-7ba2-479a-bfd0-4114436caea4"
+          },
+          {
+            "name": "Missed Fraud",
+            "expression": "CALCULATE(COUNTROWS(transactions), transactions[Split] = \"Test\", transactions[Outcome] = \"Missed fraud\")",
+            "formatString": "#,##0",
+            "lineageTag": "e86d4b2b-2093-4ef8-b3f2-3fc644c7e91e"
+          },
+          {
+            "name": "False Alarms",
+            "expression": "CALCULATE(COUNTROWS(transactions), transactions[Split] = \"Test\", transactions[Outcome] = \"False alarm\")",
+            "formatString": "#,##0",
+            "lineageTag": "2fde321f-272d-4ef4-af50-7c5175436a03"
+          },
+          {
+            "name": "Correct Normal",
+            "expression": "CALCULATE(COUNTROWS(transactions), transactions[Split] = \"Test\", transactions[Outcome] = \"Correct normal\")",
+            "formatString": "#,##0",
+            "lineageTag": "a95198cd-1d1b-4255-abfb-ba85ec86a30e"
+          },
+          {
+            "name": "Precision",
+            "expression": "DIVIDE([Fraud Caught], [Fraud Caught] + [False Alarms])",
+            "formatString": "0.000",
+            "lineageTag": "e4eb0569-f766-4536-bc25-5f50697b23b4"
+          },
+          {
+            "name": "Recall",
+            "expression": "DIVIDE([Fraud Caught], [Fraud Caught] + [Missed Fraud])",
+            "formatString": "0.000",
+            "lineageTag": "b67d2165-c0a3-4773-b384-24ef4dcd72ca"
+          },
+          {
+            "name": "F1 Score",
+            "expression": "DIVIDE(2 * [Precision] * [Recall], [Precision] + [Recall])",
+            "formatString": "0.000",
+            "lineageTag": "2387022d-a844-4077-a654-e72582cd4b04"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "transactions",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"transactions.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"TxnID\", Int64.Type}, {\"Hour\", Int64.Type}, {\"Type\", type text}, {\"Amount\", type number}, {\"SenderBalanceBefore\", type number}, {\"SenderBalanceAfter\", type number}, {\"ReceiverBalanceBefore\", type number}, {\"ReceiverBalanceAfter\", type number}, {\"ReceiverKind\", type text}, {\"IsFraud\", Int64.Type}, {\"Class\", type text}, {\"AccountEmptied\", type text}, {\"WholeBalanceMoved\", type text}, {\"AmountBand\", type text}, {\"HourPeriod\", type text}, {\"Split\", type text}, {\"FraudProbability\", type number}, {\"Predicted\", type text}, {\"Outcome\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "model_comparison",
+        "columns": [
+          {
+            "name": "Model",
+            "dataType": "string",
+            "lineageTag": "43e57c7c-c995-4925-ab85-40d12aa25f91",
+            "sourceColumn": "Model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Precision",
+            "dataType": "double",
+            "formatString": "0.000",
+            "lineageTag": "2f41843f-03df-47cd-a948-4b3710e951c0",
+            "sourceColumn": "Precision",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Recall",
+            "dataType": "double",
+            "formatString": "0.000",
+            "lineageTag": "1717c74c-56c4-4058-8e1a-5cd033401050",
+            "sourceColumn": "Recall",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "F1",
+            "dataType": "double",
+            "formatString": "0.000",
+            "lineageTag": "b94f2c45-ac78-4c38-b67e-97fd065c3602",
+            "sourceColumn": "F1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PR_AUC",
+            "dataType": "double",
+            "formatString": "0.000",
+            "lineageTag": "03f13d2d-08c9-41d1-9381-b31d88b06037",
+            "sourceColumn": "PR_AUC",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FalseAlarms",
+            "dataType": "int64",
+            "lineageTag": "8a3f6ca7-0b45-4b24-b51f-64efb3baa54a",
+            "sourceColumn": "FalseAlarms",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MissedFraud",
+            "dataType": "int64",
+            "lineageTag": "07ecacae-098e-489e-99ba-355125deba2e",
+            "sourceColumn": "MissedFraud",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "6a85eb71-9594-489e-9f5f-f843e95ec3b2",
+        "partitions": [
+          {
+            "name": "model_comparison",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"model_comparison.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Model\", type text}, {\"Precision\", type number}, {\"Recall\", type number}, {\"F1\", type number}, {\"PR_AUC\", type number}, {\"FalseAlarms\", Int64.Type}, {\"MissedFraud\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "feature_importance",
+        "columns": [
+          {
+            "name": "Feature",
+            "dataType": "string",
+            "lineageTag": "22fa51d4-f44b-4298-b2cb-c78acf40b939",
+            "sourceColumn": "Feature",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Importance",
+            "dataType": "double",
+            "formatString": "0.0%",
+            "lineageTag": "d5c5af81-f03f-4152-99d4-fc71d0dfadf4",
+            "sourceColumn": "Importance",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "bee5b567-9b1a-4bc6-b373-2b1426add4bd",
+        "partitions": [
+          {
+            "name": "feature_importance",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"feature_importance.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Feature\", type text}, {\"Importance\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "validation_checks",
+        "columns": [
+          {
+            "name": "Check",
+            "dataType": "string",
+            "lineageTag": "cc9cc7f7-a4df-46d9-a524-fa33594eab3a",
+            "sourceColumn": "Check",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Evaluation",
+            "dataType": "string",
+            "lineageTag": "6e2e448e-dd3b-47fc-835a-29ee73521c40",
+            "sourceColumn": "Evaluation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Precision",
+            "dataType": "double",
+            "formatString": "0.000",
+            "lineageTag": "3b193021-f867-4e01-9c1e-99e64ba43755",
+            "sourceColumn": "Precision",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Recall",
+            "dataType": "double",
+            "formatString": "0.000",
+            "lineageTag": "6feb5356-b760-4d81-9236-7433fbec50e5",
+            "sourceColumn": "Recall",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "F1",
+            "dataType": "double",
+            "formatString": "0.000",
+            "lineageTag": "27824c3b-8b53-4209-b09a-88544e12d33d",
+            "sourceColumn": "F1",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "eee7592a-4088-48c7-9bbe-594e530a8c22",
+        "partitions": [
+          {
+            "name": "validation_checks",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"validation_checks.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Check\", type text}, {\"Evaluation\", type text}, {\"Precision\", type number}, {\"Recall\", type number}, {\"F1\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

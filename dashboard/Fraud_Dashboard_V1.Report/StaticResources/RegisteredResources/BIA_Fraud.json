@@ -1,0 +1,16 @@
+{
+  "name": "BIA Fraud",
+  "dataColors": [
+    "#1D1B58",
+    "#C0392B",
+    "#1F8FE5",
+    "#6C6AA8",
+    "#C9C8E6",
+    "#2A7F8F",
+    "#E09F1F",
+    "#5B6077"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#161A3E",
+  "tableAccent": "#1D1B58"
+}

@@ -1,0 +1,257 @@
+{
+  "cv_model_selection": {
+    "Logistic Regression": {
+      "precision": 0.6637,
+      "recall": 0.9825,
+      "f1": 0.7922,
+      "roc_auc": 0.9952,
+      "pr_auc": 0.97,
+      "fpr": 0.05688,
+      "tn": 7544,
+      "fp": 455,
+      "fn": 16,
+      "tp": 898
+    },
+    "Decision Tree": {
+      "precision": 0.988,
+      "recall": 0.9869,
+      "f1": 0.9874,
+      "roc_auc": 0.9937,
+      "pr_auc": 0.981,
+      "fpr": 0.00138,
+      "tn": 7988,
+      "fp": 11,
+      "fn": 12,
+      "tp": 902
+    },
+    "Random Forest": {
+      "precision": 1.0,
+      "recall": 0.9825,
+      "f1": 0.9912,
+      "roc_auc": 0.9974,
+      "pr_auc": 0.9947,
+      "fpr": 0.0,
+      "tn": 7999,
+      "fp": 0,
+      "fn": 16,
+      "tp": 898
+    },
+    "XGBoost": {
+      "precision": 0.9945,
+      "recall": 0.9858,
+      "f1": 0.9901,
+      "roc_auc": 0.9967,
+      "pr_auc": 0.9947,
+      "fpr": 0.00063,
+      "tn": 7994,
+      "fp": 5,
+      "fn": 13,
+      "tp": 901
+    }
+  },
+  "saved_model_test": {
+    "t=0.50": {
+      "precision": 0.9956,
+      "recall": 0.9825,
+      "f1": 0.989,
+      "roc_auc": 0.9992,
+      "pr_auc": 0.9956,
+      "fpr": 0.0005,
+      "tn": 2000,
+      "fp": 1,
+      "fn": 4,
+      "tp": 224
+    },
+    "t=0.827": {
+      "precision": 1.0,
+      "recall": 0.9781,
+      "f1": 0.9889,
+      "roc_auc": 0.9992,
+      "pr_auc": 0.9956,
+      "fpr": 0.0,
+      "tn": 2001,
+      "fp": 0,
+      "fn": 5,
+      "tp": 223
+    }
+  },
+  "feature_sets": {
+    "A post-transaction (16 features)": {
+      "cv_train": {
+        "precision": 0.9956,
+        "recall": 0.9858,
+        "f1": 0.9907,
+        "roc_auc": 0.998,
+        "pr_auc": 0.995,
+        "fpr": 0.0005,
+        "tn": 7995,
+        "fp": 4,
+        "fn": 13,
+        "tp": 901
+      },
+      "test": {
+        "precision": 0.9956,
+        "recall": 0.9825,
+        "f1": 0.989,
+        "roc_auc": 0.9992,
+        "pr_auc": 0.9956,
+        "fpr": 0.0005,
+        "tn": 2000,
+        "fp": 1,
+        "fn": 4,
+        "tp": 224
+      }
+    },
+    "B pre-authorization": {
+      "cv_train": {
+        "precision": 0.9858,
+        "recall": 0.988,
+        "f1": 0.9869,
+        "roc_auc": 0.9979,
+        "pr_auc": 0.995,
+        "fpr": 0.00163,
+        "tn": 7986,
+        "fp": 13,
+        "fn": 11,
+        "tp": 903
+      },
+      "test": {
+        "precision": 0.9956,
+        "recall": 0.9825,
+        "f1": 0.989,
+        "roc_auc": 0.9974,
+        "pr_auc": 0.9913,
+        "fpr": 0.0005,
+        "tn": 2000,
+        "fp": 1,
+        "fn": 4,
+        "tp": 224
+      }
+    },
+    "C no balances": {
+      "cv_train": {
+        "precision": 0.3563,
+        "recall": 0.9726,
+        "f1": 0.5216,
+        "roc_auc": 0.944,
+        "pr_auc": 0.6756,
+        "fpr": 0.20078,
+        "tn": 6393,
+        "fp": 1606,
+        "fn": 25,
+        "tp": 889
+      },
+      "test": {
+        "precision": 0.3607,
+        "recall": 0.9825,
+        "f1": 0.5277,
+        "roc_auc": 0.9451,
+        "pr_auc": 0.6757,
+        "fpr": 0.1984,
+        "tn": 1604,
+        "fp": 397,
+        "fn": 4,
+        "tp": 224
+      }
+    }
+  },
+  "transfer_cashout_only": {
+    "rows": 3335,
+    "fraud": 1142,
+    "A": {
+      "precision": 0.9982,
+      "recall": 0.9825,
+      "f1": 0.9903,
+      "roc_auc": 0.9973,
+      "pr_auc": 0.9969,
+      "fpr": 0.00091,
+      "tn": 2191,
+      "fp": 2,
+      "fn": 20,
+      "tp": 1122
+    },
+    "B": {
+      "precision": 0.9947,
+      "recall": 0.9834,
+      "f1": 0.989,
+      "roc_auc": 0.9949,
+      "pr_auc": 0.9954,
+      "fpr": 0.00274,
+      "tn": 2187,
+      "fp": 6,
+      "fn": 19,
+      "tp": 1123
+    }
+  },
+  "same_window_steps_1_7": {
+    "rows": 10078,
+    "fraud": 78,
+    "A": {
+      "precision": 0.9868,
+      "recall": 0.9615,
+      "f1": 0.974,
+      "roc_auc": 0.9985,
+      "pr_auc": 0.9766,
+      "fpr": 0.0001,
+      "tn": 9999,
+      "fp": 1,
+      "fn": 3,
+      "tp": 75
+    },
+    "B": {
+      "precision": 0.9036,
+      "recall": 0.9615,
+      "f1": 0.9317,
+      "roc_auc": 0.9998,
+      "pr_auc": 0.9829,
+      "fpr": 0.0008,
+      "tn": 9992,
+      "fp": 8,
+      "fn": 3,
+      "tp": 75
+    }
+  },
+  "chronological": {
+    "train_rows": 5504,
+    "train_fraud": 44,
+    "test_rows": 4574,
+    "test_fraud": 34,
+    "A": {
+      "precision": 0.9444,
+      "recall": 1.0,
+      "f1": 0.9714,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.00044,
+      "tn": 4538,
+      "fp": 2,
+      "fn": 0,
+      "tp": 34
+    },
+    "B": {
+      "precision": 0.8947,
+      "recall": 1.0,
+      "f1": 0.9444,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.00088,
+      "tn": 4536,
+      "fp": 4,
+      "fn": 0,
+      "tp": 34
+    }
+  },
+  "transfer_cashout_link": {
+    "transfers": 564,
+    "cashouts": 578,
+    "transfer_amount_also_in_cashout": 0.9894,
+    "transfer_receiver_is_cashout_sender": 0.0
+  },
+  "dataset": {
+    "rows": 11142,
+    "fraud": 1142,
+    "unique_steps_fraud": 95,
+    "unique_steps_normal": 7,
+    "fraud_steps_1_7": 78
+  }
+}
